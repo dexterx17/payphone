@@ -4,4 +4,6 @@ class Nodo {
     valor = 0;
 }
 
-let nodo = Nodo();
+let nodo = new Nodo();
+
+document.getElementById('content').innerHTML = "desde prod";
