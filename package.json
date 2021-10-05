@@ -1,0 +1,30 @@
+{
+  "name": "payphone",
+  "version": "1.0.0",
+  "description": "Testing payphone endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dexterx17/payphone.git"
+  },
+  "keywords": [
+    "payments"
+  ],
+  "author": "Jaime Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dexterx17/payphone/issues"
+  },
+  "homepage": "https://github.com/dexterx17/payphone#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.57.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
