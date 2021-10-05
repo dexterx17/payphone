@@ -1,0 +1,1 @@
+console.log("prod env"),new class{valor=0},document.getElementById("content").innerHTML="desde prod";
