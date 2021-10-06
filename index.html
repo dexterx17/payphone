@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PayPhone Tests</title>
-
+    <script src="https://pay.payphonetodoesposible.com/api/button/js?appId=udT8Ck6XIEmF8HsDRLfTA"></script>
 </head>
 <body>
     <main id="app">
@@ -13,8 +13,31 @@
             <h2>PayPhone Test</h2>
         </header>
         <section id="content">
+            <form >
+                <div>
+                    <label for="token">Token</label>
+                    <input type="text" id="token" required>
+                </div>
+                <div>
+                    <label for="pedidoCode">Pedido Code</label>
+                    <input type="text" id="pedidoCode" required>
+                </div>
+                <div>
+                    <label for="ordenData">Pedido Data</label>
+                    <textarea id="pedidoData" readonly>
+                    </textarea>
+                </div>
+                <div>
+                    <button onclick="generarBoton()">
+                        Generar Boton
+                    </button>
+                    <div id="pp-button">
+
+                    </div>
+                </div>
+            </form>
         </section>
+        <script src="./src/index.js"></script>
     </main>
-    <script src="./dist/main.js"></script>
 </body>
 </html>
